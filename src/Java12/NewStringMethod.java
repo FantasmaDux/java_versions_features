@@ -2,7 +2,7 @@ package Java12;
 
 import java.util.*;
 
-// it get function. String will pe the parameter. It returns everything we did with string.
+// it gets function. String will pe the parameter. It returns everything we did with string.
 // Usually we use it with lambda or streams
 public class NewStringMethod {
     public static void main(String[] args) {

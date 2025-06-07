@@ -7,7 +7,7 @@ public class UsingStreamAPIAndCollectors {
     public static void main(String[] args) {
         List<Integer> nums = List.of(1, 2, 3, 4);
 
-        // previous we did it bu collector. Working with one stream, but get two different result:
+        // previous we did it by collector. Working with one stream, but get two different result:
         var sum = nums.stream().collect(Collectors.summingInt(Integer::intValue));
         var avg = nums.stream().collect(Collectors.averagingInt(Integer::intValue));
         System.out.println("Sum " + sum + " average " + avg);
